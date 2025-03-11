@@ -11,7 +11,7 @@ import { baseUrl } from './sitemap'
 export const metadata: Metadata = {
   metadataBase: new URL(baseUrl),
   title: {
-    default: 'Next.js Portfolio Starter',
+    default: 'Miles Jaffee\'s Portfolio',
     template: '%s | Next.js Portfolio Starter',
   },
   description: 'This is my portfolio.',
@@ -47,7 +47,7 @@ export default function RootLayout({
     <html
       lang="en"
       className={cx(
-        'text-black bg-white dark:text-white dark:bg-black',
+        'text-black bg-light-gray dark:text-white dark:bg-black',
         GeistSans.variable,
         GeistMono.variable
       )}
