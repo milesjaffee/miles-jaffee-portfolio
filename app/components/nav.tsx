@@ -1,5 +1,5 @@
-import Link from 'next/link';
-import Text from 'next/text';
+import Link from 'next/link'
+//import Text from 'next/text'
 
 const navItems = {
   '/': {
@@ -32,7 +32,7 @@ export function Navbar() {
                 >
                   {name}
                 </Link>
-                <Text>**</Text>
+                **
                 </>
               )
             })}
