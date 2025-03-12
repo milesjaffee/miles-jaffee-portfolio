@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   metadataBase: new URL(baseUrl),
   title: {
     default: 'Miles Jaffee\'s Portfolio',
-    template: '%s | Next.js Portfolio Starter',
+    template: '%s | Miles Jaffee\'s Portfolio',
   },
   description: 'This is my portfolio.',
   openGraph: {
@@ -47,7 +47,7 @@ export default function RootLayout({
     <html
       lang="en"
       className={cx(
-        'text-black bg-light-gray dark:text-white dark:bg-black',
+        'text-black bg-cream dark:text-white dark:bg-black',
         GeistSans.variable,
         GeistMono.variable
       )}

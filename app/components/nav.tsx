@@ -32,7 +32,7 @@ export function Navbar() {
                 >
                   {name}
                 </Link>
-                **
+                :ö:
                 </>
               )
             })}
