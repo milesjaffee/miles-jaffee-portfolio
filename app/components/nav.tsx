@@ -3,9 +3,9 @@ import Link from 'next/link'
 
 const navItems = {
   '/': {
-    name: 'home',
+    name: 'miles jaffee',
   },
-  '/blog': {
+  '/projects': {
     name: 'my projects',
   },
   'https://milesjaffee.substack.com': {
@@ -25,14 +25,15 @@ export function Navbar() {
             {Object.entries(navItems).map(([path, { name }]) => {
               return (
                 <>
+                
                 <Link
                   key={path}
                   href={path}
                   className="transition-all hover:text-neutral-800 dark:hover:text-neutral-200 flex align-middle relative py-1 px-2 m-1"
                 >
-                  {name}
+                  &lt; {name} /&gt; &nbsp;
                 </Link>
-                :ö:
+                 
                 </>
               )
             })}
